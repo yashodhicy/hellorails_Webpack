@@ -1,11 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom';
+import App from './components/App.jsx'
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+document.addEventListener("DOMContentLoaded", function () {
+  const root = document.getElementById('root');
+  const app = (
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
-);
+  if (root) {
+    createRoot(root).render(app);
+  }
+});
