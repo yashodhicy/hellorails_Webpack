@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import { useDispatch, useSelector} from "react-redux"
+import { fetchRandomGreeting } from '../store/actions/greetingActions';
 
 const RandomGreeting = () => {
-  const [greeting, setGreeting] = useState('');
-  const [isLoading, setIsLoading] = useState(true); // Add a loading state
+  const dispatch = useDispatch();
+  const greeting = useSelector((state) => state.greeting.content);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch a random greeting from your API endpoint
-    fetch('/random_greeting')
-      .then((response) => response.json())
-      .then((data) => {
-        setGreeting(data.greeting);
-        setIsLoading(false); // Data has been fetched, set loading to false
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-        setIsLoading(false); // Handle errors and set loading to false
-      });
-  }, []);
+        dispatch(fetchRandomGreeting());
+        setIsLoading(false);
+  }, [dispatch]);
 
   if (isLoading) {
     return <p>Loading...</p>;
