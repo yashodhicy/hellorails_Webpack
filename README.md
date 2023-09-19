@@ -1,24 +1,161 @@
-# README
+<a name="readme-top"></a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<div align="center">
+  <h1>📖 Hello rails App</h>
+</div>
 
-Things you may want to cover:
 
-* Ruby version
+<!-- TABLE OF CONTENTS -->
 
-* System dependencies
+# 📗 Table of Contents
 
-* Configuration
+- [📖 About the Project](#about-project)
 
-* Database creation
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  <!-- - [🚀 Live Demo](#live-demo) -->
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [👥 Authors](#authors)
+- [⭐️Demo Links](#demo-links)
+- [🔭Vedio Presentation Links](#video-links)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [:question: FAQ](#faq)
+- [📝 License](#license)
 
-* Database initialization
+<!-- PROJECT DESCRIPTION -->
 
-* How to run the test suite
+# 📖 Hello rails app <a name="about-project"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+**Hello rails app:** This project employs a Ruby on Rails app with PostgreSQL database, react and redux to practice creating one application using for both front end and back end.This is rendering random greeting to the user. 📚
 
-* Deployment instructions
+# Screenshots
+![Alt text](image.png)
 
-* ...
+![Alt text](image-1.png)
+## 🛠 Built With <a name="built-with"></a>
+
+  <ul>
+    <li>Ruby</li>
+    <li>Ruby On Rails</li>
+    <li>PostgreSQL</li>
+  </ul>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- [x] **Display Random greeting**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+In order to run this project you need:
+  * A basic understanding of Ruby, Rails and Git
+  * A postgresql connection
+  * Create some data before running to see Greatings
+### Usage
+1. Install Ruby
+1. Install Rails
+2. Clone this repo 
+```
+git clone git@github.com:yashodhicy/hellorails_Webpack_app.git
+```
+
+To run the project, execute the following command:
+
+```
+  rails s
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 : **Yashodhi Chathurangi**
+
+- GitHub: [@githubhandle](https://github.com/yashodhicy)
+- Twitter: [@twitterhandle](https://twitter.com/Yashichathucy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yashodhichathurangi/)
+
+
+Original design idea by Gregoire Vella on Behance.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- DEPLOYEMENT LINK -->
+
+## 🔭 Demo Link <a name="demo-link"></a>
+Click [here](https://https://yashbudgetapp.onrender.com/) 
+
+ <!-- Video presentation Link-->
+
+## 🔭 Video presentation Link <a name="video-link"></a>
+Click [here](https://www.loom.com/share/406fb8cbf358410f982dc31356a45348?sid=0fb1fbbf-d5b8-42b6-a095-67b19232db6c/)
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Modern UI**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Please support this project and be a part of something meaningful and impactful. Your contribution can make a significant difference and help us achieve our goals faster.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Grateful to all for inspiring codebase, your dedication and creativity made a lasting impact on our success. Thank you!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :question: FAQ <a name="faq"></a>
+
+- **Can I fork and reuse this repository?**
+
+Absolutely! Please feel free to fork and reuse this repository for your own projects.
+
+- **Is it okay to improve this repository? Will my changes be accepted?**
+
+Definitely! We welcome any improvements or new ideas you may have. If your changes are good and align with the project's goals, we would be happy to accept them.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
