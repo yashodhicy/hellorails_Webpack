@@ -18,8 +18,6 @@
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [👥 Authors](#authors)
-- [⭐️Demo Links](#demo-links)
-- [🔭Vedio Presentation Links](#video-links)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -91,18 +89,7 @@ To run the project, execute the following command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yashodhichathurangi/)
 
 
-Original design idea by Gregoire Vella on Behance.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- DEPLOYEMENT LINK -->
-
-## 🔭 Demo Link <a name="demo-link"></a>
-Click [here](https://https://yashbudgetapp.onrender.com/) 
-
- <!-- Video presentation Link-->
-
-## 🔭 Video presentation Link <a name="video-link"></a>
-Click [here](https://www.loom.com/share/406fb8cbf358410f982dc31356a45348?sid=0fb1fbbf-d5b8-42b6-a095-67b19232db6c/)
 
 
 <!-- FUTURE FEATURES -->
